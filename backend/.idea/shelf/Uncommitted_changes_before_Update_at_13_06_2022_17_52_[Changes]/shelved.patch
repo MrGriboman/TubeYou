@@ -1,0 +1,72 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ea07291f-7cfe-4b20-8830-cc51cb2a7e41\" name=\"Changes\" comment=\"testoftests\">\r\n      <change afterPath=\"$PROJECT_DIR$/youtu6e/Dockerfile\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/youtu6e/main/serializers.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/youtu6e/main/urls.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/youtu6e/scripts/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/youtu6e/scripts/start_prod.sh\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/requirements.txt\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/admin.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/main/admin.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/apps.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/main/apps.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/main/models.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/templates/index.html\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/tests/test_models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/main/tests/test_models.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/tests/test_views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/main/tests/test_views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/main/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/main/views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/manage.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/manage.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/youtu6e/asgi.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/youtu6e/asgi.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/youtu6e/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/youtu6e/settings.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/youtu6e/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/youtu6e/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/youtu6e/wsgi.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/youtu6e/wsgi.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"298qpCoos6Uc6bbGiWKnsZgFaHX\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\79996\\Desktop\\youtu6e\\youtu6e\\scripts\" />\r\n      <recent name=\"C:\\Users\\79996\\Desktop\\youtu6e\\youtu6e\\templates\" />\r\n      <recent name=\"C:\\Users\\79996\\Desktop\\youtu6e\\youtu6e\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ea07291f-7cfe-4b20-8830-cc51cb2a7e41\" name=\"Changes\" comment=\"\" />\r\n      <created>1652505240488</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1652505240488</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init\">\r\n      <created>1652505687165</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652505687165</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"init\">\r\n      <created>1652506958535</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652506958535</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"init\">\r\n      <created>1652507079647</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652507079647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"testsinit\">\r\n      <created>1652533429430</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652533429430</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"testoftests\">\r\n      <created>1652533653906</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652533653906</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"testoftests\">\r\n      <created>1652592131926</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652592131926</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"testsinit\" />\r\n    <MESSAGE value=\"testoftests\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"testoftests\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 533812e3ef065e496c3b4b9b4d0e43847ff37aea)
++++ b/.idea/workspace.xml	(date 1655106510949)
+@@ -1,26 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="ea07291f-7cfe-4b20-8830-cc51cb2a7e41" name="Changes" comment="testoftests">
+-      <change afterPath="$PROJECT_DIR$/youtu6e/Dockerfile" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/youtu6e/main/serializers.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/youtu6e/main/urls.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/youtu6e/scripts/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/youtu6e/scripts/start_prod.sh" afterDir="false" />
++    <list default="true" id="ea07291f-7cfe-4b20-8830-cc51cb2a7e41" name="Changes" comment="create REST api">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/main/admin.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/main/apps.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/main/models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/templates/index.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/main/tests/test_models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/main/tests/test_views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/main/views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/manage.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/youtu6e/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/youtu6e/asgi.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/youtu6e/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/youtu6e/settings.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/youtu6e/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/youtu6e/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/youtu6e/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/youtu6e/wsgi.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,6 +32,7 @@
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+@@ -109,7 +92,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1652592131926</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="create REST api">
++      <created>1655041656398</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1655041656398</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -128,6 +118,7 @@
+     <MESSAGE value="init" />
+     <MESSAGE value="testsinit" />
+     <MESSAGE value="testoftests" />
+-    <option name="LAST_COMMIT_MESSAGE" value="testoftests" />
++    <MESSAGE value="create REST api" />
++    <option name="LAST_COMMIT_MESSAGE" value="create REST api" />
+   </component>
+ </project>
+\ No newline at end of file

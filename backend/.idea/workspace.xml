@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea07291f-7cfe-4b20-8830-cc51cb2a7e41" name="Changes" comment="fix video addition">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="298qpCoos6Uc6bbGiWKnsZgFaHX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79996\Desktop\youtu6e\youtu6e\scripts" />
+      <recent name="C:\Users\79996\Desktop\youtu6e\youtu6e\templates" />
+      <recent name="C:\Users\79996\Desktop\youtu6e\youtu6e" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea07291f-7cfe-4b20-8830-cc51cb2a7e41" name="Changes" comment="" />
+      <created>1652505240488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652505240488</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1652505687165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652505687165</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1652506958535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652506958535</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1652507079647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652507079647</updated>
+    </task>
+    <task id="LOCAL-00004" summary="testsinit">
+      <created>1652533429430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652533429430</updated>
+    </task>
+    <task id="LOCAL-00005" summary="testoftests">
+      <created>1652533653906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652533653906</updated>
+    </task>
+    <task id="LOCAL-00006" summary="testoftests">
+      <created>1652592131926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652592131926</updated>
+    </task>
+    <task id="LOCAL-00007" summary="connected with Vue">
+      <created>1655109239453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655109239453</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add test">
+      <created>1655975453611</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655975453611</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add registration and authorization">
+      <created>1655975701099</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655975701099</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add celery">
+      <created>1656493090570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656493090570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add user in db">
+      <created>1656509026958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509026958</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add user in db">
+      <created>1656509241705</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509241705</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add user in db">
+      <created>1656509247384</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509247384</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add user in db">
+      <created>1656510533987</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656510533987</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add user in db">
+      <created>1656511888159</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656511888159</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add user in db">
+      <created>1656512108604</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656512108604</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add user in db">
+      <created>1656512114181</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656512114181</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add user in db">
+      <created>1656513025764</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656513025764</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add user in db">
+      <created>1656513333341</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656513333341</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add user in db">
+      <created>1656515984588</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656515984588</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add changeable userAcc">
+      <created>1656567465569</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1656567465569</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add changeable userAcc">
+      <created>1656567472067</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656567472067</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix views">
+      <created>1656568421454</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656568421454</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add video api">
+      <created>1656579686579</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1656579686579</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix video addition">
+      <created>1656585565286</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656585565286</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix video addition">
+      <created>1656587105797</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1656587105797</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix video addition">
+      <created>1656587502428</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1656587502428</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix video addition">
+      <created>1656587516574</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1656587516574</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="testsinit" />
+    <MESSAGE value="testoftests" />
+    <MESSAGE value="connected with Vue" />
+    <MESSAGE value="add test" />
+    <MESSAGE value="add registration and authorization" />
+    <MESSAGE value="add celery" />
+    <MESSAGE value="add user in db" />
+    <MESSAGE value="add changeable userAcc" />
+    <MESSAGE value="fix views" />
+    <MESSAGE value="add video api" />
+    <MESSAGE value="fix video addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix video addition" />
+  </component>
+</project>

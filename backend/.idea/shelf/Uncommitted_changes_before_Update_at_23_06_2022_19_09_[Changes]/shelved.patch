@@ -1,0 +1,128 @@
+Index: main/urls.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from .views import VideosViewSet, FindVideoSet\r\nfrom rest_framework import routers\r\n\r\nrouter = routers.DefaultRouter()\r\nrouter.register('mainvideos', VideosViewSet, basename='Videos')\r\nrouter.register('findvideos', FindVideoSet, basename='FoundVideos')\r\n\r\nurlpatterns = router.urls
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main/urls.py b/main/urls.py
+--- a/main/urls.py	(revision 0c0b8040d4ff8f38d9369397bc074794c91eebd9)
++++ b/main/urls.py	(date 1655975178740)
+@@ -1,3 +1,5 @@
++from django.urls import include, path, re_path
++
+ from .views import VideosViewSet, FindVideoSet
+ from rest_framework import routers
+ 
+@@ -5,4 +7,7 @@
+ router.register('mainvideos', VideosViewSet, basename='Videos')
+ router.register('findvideos', FindVideoSet, basename='FoundVideos')
+ 
+-urlpatterns = router.urls
+\ No newline at end of file
++urlpatterns = [
++    path('auth/', include('djoser.urls')),
++    re_path(r'^auth/', include('djoser.urls.authtoken')),
++] + router.urls
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ea07291f-7cfe-4b20-8830-cc51cb2a7e41\" name=\"Changes\" comment=\"connected with Vue\">\r\n      <change afterPath=\"$PROJECT_DIR$/.dockerignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Dockerfile\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/docker-compose.yml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/entrypoint.sh\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/nginx/Dockerfile\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/nginx/default.conf\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2022_17_52_[Changes]/shelved.patch\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2022_17_52_[Changes]/shelved.patch\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/youtu6e.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/youtu6e.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/db.sqlite3\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/db.sqlite3\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/admin.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/admin.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/apps.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/apps.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/migrations/0001_initial.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/migrations/0001_initial.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/migrations/0002_alter_videos_options_remove_videos_preview.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/migrations/0002_alter_videos_options_remove_videos_preview.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/migrations/0003_alter_videos_options_videos_preview_and_more.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/migrations/0003_alter_videos_options_videos_preview_and_more.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/migrations/0004_videos_video.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/migrations/0004_videos_video.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/models.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/serializers.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/serializers.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/tests/test_models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/tests/test_models.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/tests/test_views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/tests/test_views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main/views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/manage.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/manage.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/bike.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/bike.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/bike_nkUOMUA.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/bike_nkUOMUA.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/car.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/car.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/death.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/death.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/honesty.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/honesty.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/justice.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/justice.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/justice_vRsGOSJ.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/justice_vRsGOSJ.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/life.jpeg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/life.jpeg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/oblivion.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/oblivion.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/ram.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/ram.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/relax.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/relax.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/samsung.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/samsung.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/space.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/space.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/star.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/star.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/the_cube.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/the_cube.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/thor.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/thor.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/tlou.jpg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/tlou.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/media/images/viking.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/media/images/viking.mp4\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/settings.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/youtu6e/wsgi.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/youtu6e/wsgi.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"298qpCoos6Uc6bbGiWKnsZgFaHX\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\79996\\Desktop\\youtu6e\\youtu6e\\scripts\" />\r\n      <recent name=\"C:\\Users\\79996\\Desktop\\youtu6e\\youtu6e\\templates\" />\r\n      <recent name=\"C:\\Users\\79996\\Desktop\\youtu6e\\youtu6e\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ea07291f-7cfe-4b20-8830-cc51cb2a7e41\" name=\"Changes\" comment=\"\" />\r\n      <created>1652505240488</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1652505240488</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init\">\r\n      <created>1652505687165</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652505687165</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"init\">\r\n      <created>1652506958535</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652506958535</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"init\">\r\n      <created>1652507079647</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652507079647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"testsinit\">\r\n      <created>1652533429430</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652533429430</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"testoftests\">\r\n      <created>1652533653906</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652533653906</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"testoftests\">\r\n      <created>1652592131926</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652592131926</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"connected with Vue\">\r\n      <created>1655109239453</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655109239453</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"testsinit\" />\r\n    <MESSAGE value=\"testoftests\" />\r\n    <MESSAGE value=\"connected with Vue\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"connected with Vue\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0c0b8040d4ff8f38d9369397bc074794c91eebd9)
++++ b/.idea/workspace.xml	(date 1655974399541)
+@@ -1,55 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="ea07291f-7cfe-4b20-8830-cc51cb2a7e41" name="Changes" comment="connected with Vue">
+-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2022_17_52_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2022_17_52_[Changes]/shelved.patch" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++    <list default="true" id="ea07291f-7cfe-4b20-8830-cc51cb2a7e41" name="Changes" comment="add test">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/youtu6e.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/youtu6e.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/migrations/0002_alter_videos_options_remove_videos_preview.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0002_alter_videos_options_remove_videos_preview.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/migrations/0003_alter_videos_options_videos_preview_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0003_alter_videos_options_videos_preview_and_more.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/migrations/0004_videos_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/migrations/0004_videos_video.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/serializers.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/test_views.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/bike.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/bike.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/bike_nkUOMUA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/bike_nkUOMUA.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/car.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/car.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/death.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/death.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/honesty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/honesty.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/justice.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/justice.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/justice_vRsGOSJ.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/justice_vRsGOSJ.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/life.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/life.jpeg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/oblivion.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/oblivion.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/ram.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/ram.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/relax.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/relax.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/samsung.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/samsung.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/space.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/space.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/star.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/star.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/the_cube.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/the_cube.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/thor.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/thor.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/tlou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/tlou.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media/images/viking.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/images/viking.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/settings.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/youtu6e/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/youtu6e/wsgi.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -81,6 +36,7 @@
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+@@ -147,7 +103,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1655109239453</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="add test">
++      <created>1655468054277</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1655468054277</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -167,6 +130,7 @@
+     <MESSAGE value="testsinit" />
+     <MESSAGE value="testoftests" />
+     <MESSAGE value="connected with Vue" />
+-    <option name="LAST_COMMIT_MESSAGE" value="connected with Vue" />
++    <MESSAGE value="add test" />
++    <option name="LAST_COMMIT_MESSAGE" value="add test" />
+   </component>
+ </project>
+\ No newline at end of file
